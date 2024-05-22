@@ -12,7 +12,7 @@
 
 ## Professores Orientadores: Victor Bruno Alexander Rosetti de Quiroz, Adriano Valentea, Eduardo Savino Gomes.
 
-## Descrição
+## Descrição: A proposta deste trabalho é a facilitação de médicos, em questão do monitoramento dos batimentos cardíacos e o oxigênio do sangue do paciente.
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
@@ -22,7 +22,11 @@
 
 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
 <br><br>
-Nosso projeto consiste em desenvolver um aplicativo de monitoramento remoto de frequência cardíaca e nível de oxigenação do sangue para permitir que médicos monitorem seus pacientes de forma contínua e em tempo real.
+Dispositivo capaz de medir a frequência cardíaca e o oxigenio do sangue de uma pessoa de forma contínua ou periódica. Ele
+utiliza sensores ópticos ou elétricos para capturar os batimentos cardíacos e o oxigênio do sangue. Assim que detecta uma
+anomalia, o sensor envia os dados coletados para um banco de dados por meio de uma conexão sem fio, como Bluetooth ou Wi-Fi.
+No banco de dados, esses dados podem ser armazenados e posteriormente analisados por profissionais de saúde ou pesquisadores.
+Essa análise pode ajudar a identificar problemas cardíacos e de oxigenio no sangue.
 <br><br>
 <br><br>
 
