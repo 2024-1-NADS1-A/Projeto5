@@ -4,9 +4,9 @@
 <a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
 </p>
 
-# Nome do Projeto
+# Sensor de frquência cardíaca e oxímetro
 
-## Nome do Grupo
+## Grupo 5 
 
 ## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
 
@@ -22,7 +22,7 @@
 
 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
 <br><br>
-Meu projeto ajuda estudantes FECAP a configurarem seus githubs.
+Nosso projeto consiste em desenvolver um aplicativo de monitoramento remoto de frequência cardíaca e nível de oxigenação do sangue para permitir que médicos monitorem seus pacientes de forma contínua e em tempo real.
 <br><br>
 May the force be with you!
 <br><br>
