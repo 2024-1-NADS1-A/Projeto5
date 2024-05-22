@@ -8,7 +8,7 @@
 
 ## Grupo 5 
 
-## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Goku Sayajin</a>, <a href="https://www.linkedin.com/in/victorbarq/">Saitama One</a>, <a href="https://www.linkedin.com/in/victorbarq/">Ikki de Fenix</a>, <a href="https://www.linkedin.com/in/victorbarq/">Yusuke Urameshi</a>, <a href="https://www.linkedin.com/in/victorbarq/">Roronoa Zoro</a>
+## Integrantes: Gustavo Cunha Fernandes, Isabela Nunes Zeferino e Matheus Alves Gas.
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Dr. Victor Von Doom</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Saitama</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Strange</a>, <a href="https://www.linkedin.com/in/victorbarq/">Me. Yoda</a>, <a href="https://www.linkedin.com/in/victorbarq/">Dr. Gero</a>
 
@@ -24,7 +24,6 @@ De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
 <br><br>
 Nosso projeto consiste em desenvolver um aplicativo de monitoramento remoto de frequência cardíaca e nível de oxigenação do sangue para permitir que médicos monitorem seus pacientes de forma contínua e em tempo real.
 <br><br>
-May the force be with you!
 <br><br>
 
 ## 🛠 Estrutura de pastas
