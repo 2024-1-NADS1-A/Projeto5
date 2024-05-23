@@ -89,14 +89,24 @@ Conectando o WI-FI ao ESP32:
 https://blynk.io/
 ```
 
-<b>Windows:</b>
+<b>arduino IDE:</b>
 
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
+Faça o download do software do Arduino IDE 
+<br> Vá em software >
+Arduino IDE 2.3.2 > Baixe a pasta Zip de acordo com seu sistema operacinal.<br/>
 
 ```sh
-Coloque código do prompt de comnando se for necessário
+https://www.arduino.cc/en/software
 ```
+
+Para instalar biblioteca do ESP32:
+<br><br/>
+
+Para instalar biblioteca do MAX30100:
+<br><br/>
+
+Para instalar biblioteca do Blynk:
+<br><br/>
 
 <b>HTML:</b>
 
