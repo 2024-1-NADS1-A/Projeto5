@@ -12,7 +12,7 @@
 
 ## Professores Orientadores: Victor Bruno Alexander Rosetti de Quiroz, Adriano Valentea, Eduardo Savino Gomes.
 
-## Descrição: A proposta deste trabalho é a facilitação de médicos, em questão do monitoramento dos batimentos cardíacos e o oxigênio do sangue do paciente.
+## Descrição: Desenvolvemos um dispositivo que combina um sensor de frequência cardíaca e oxímetro, conectado ao aplicativo Blynk por meio do ESP32. Esse sistema permite aos médicos monitorarem os sinais vitais de seus pacientes em tempo real, facilitando o acompanhamento dos batimentos cardíacos e dos níveis de oxigênio no sangue à distância.
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
