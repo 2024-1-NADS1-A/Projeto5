@@ -63,10 +63,10 @@ Há também 4 pastas que seguem da seguinte forma:
 
 ## 🛠 Equipamentos utilizados 
 
-<b>Protoboard</b>
-<b>5 fios jumpers </b>
-<b>Sensor MAX30100</b>
-<b>ESP32</b>
+<br>Protoboard</br>
+<br>5 fios jumpers </br>
+<br>Sensor MAX30100</br>
+<br>ESP32</br>
 
 ## 🛠 Instalação
 
