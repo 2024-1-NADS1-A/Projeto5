@@ -16,7 +16,7 @@
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
+  Projeto interdisciplinar feito por: Gustavo Cunha Fernandes, isabela Nunes Zeferino e Matheus Alves Gas.
 </p>
 
 
@@ -66,7 +66,7 @@ Há também 4 pastas que seguem da seguinte forma:
 <br>-5 fios jumpers </br>
 <br>-Sensor MAX30100</br>
 <br>-ESP32</br>
-
+<br>-cabo USB</br>
 
 <b>Software:</b>
 <br>-Arduino IDE</br>
@@ -78,7 +78,8 @@ Há também 4 pastas que seguem da seguinte forma:
 <b>Blynk:</b>
 
 Faça o Download do aplicativo Blynk em seu celular e siga as instruções de seu telefone ou abra no navegador.
-<br>Crie sua conta > Zona do desenvolvedor > Crie seu modelo > Datastreams: defina um pino virtual V4 e V5 para BPM e SPO2 > Painel de controle web : adicione dois medidores e atribua os pinos virtuais a eles. </br>
+
+<br>Crie sua conta > Zona do desenvolvedor > Crie seu projeto:tocando no botão "+" ou no botão de adicionar projeto. Dê um nome ao seu projeto e selecione o dispositivo que você usará com o Blynk. > Datastreams: defina um pino virtual V4 e V5 para BPM e SPO2 > Painel de controle web : adicione widgets tocando no botão de "+" no canto superior direito. Adicione dois medidores e atribua os pinos virtuais a eles. > Conectando seu Dispositivo: você precisará de um token de autenticação. Este token é gerado pelo aplicativo Blynk e é único para cada projeto. No aplicativo, toque no botão QR no canto superior direito do editor para visualizar o token. Você precisará inserir esse token no código do seu dispositivo para estabelecer a conexão com o Blynk. </br>
 
 Conectando o WI-FI ao ESP32: 
 <br> Vá em Ajuda > Início ráido > Vamos lá<br/>
@@ -98,7 +99,11 @@ https://www.arduino.cc/en/software
 ```
 
 Para instalar biblioteca do ESP32:
-<br><br/>
+<br>Abra a IDE do Arduino.
+No menu, vá para "Sketch" -> "Incluir Biblioteca" -> "Gerenciar Bibliotecas...".
+Na janela que se abre, digite "ESP32" na barra de pesquisa.
+Localize a biblioteca "ESP32" na lista e clique no botão "Instalar" ao lado dela.
+Após a instalação, você pode usar a biblioteca em seus projetos selecionando-a em "Sketch" -> "Incluir Biblioteca".<br/>
 
 Para instalar biblioteca do MAX30100:
 <br><br/>
