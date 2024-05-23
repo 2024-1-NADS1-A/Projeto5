@@ -20,15 +20,13 @@
 </p>
 
 
-De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+Para que serve o projeto.
 <br><br>
-Dispositivo capaz de medir a frequência cardíaca e o oxigenio do sangue de uma pessoa de forma contínua ou periódica. Ele
-utiliza sensores ópticos ou elétricos para capturar os batimentos cardíacos e o oxigênio do sangue. Assim que detecta uma
-anomalia, o sensor envia os dados coletados para um banco de dados por meio de uma conexão sem fio, como Bluetooth ou Wi-Fi.
-No banco de dados, esses dados podem ser armazenados e posteriormente analisados por profissionais de saúde ou pesquisadores.
-Essa análise pode ajudar a identificar problemas cardíacos e de oxigenio no sangue.
-<br><br>
-<br><br>
+O projeto consiste em um dispositivo que monitora continuamente ou periodicamente a frequência cardíaca e os níveis de oxigênio no sangue. Ele utiliza o sensor MAX30100, que é capaz de capturar os batimentos cardíacos e a saturação de oxigênio no sangue por meio de sensores ópticos.<br>
+
+<br>Quando são registradas as leituras, incluindo os batimentos por minuto (BPM) e a saturação periférica de oxigênio (SpO2), esses dados são enviados sem fio para um layout no Blynk. Esta interface é projetada para visualização por médicos e profissionais de saúde.<br>
+
+<br>Através dessa interface, os médicos podem acessar e analisar em tempo real as informações vitais dos pacientes. Isso permite uma monitoração contínua e a identificação rápida de quaisquer anormalidades nos sinais vitais, facilitando a tomada de decisões médicas.<br>
 
 ## 🛠 Estrutura de pastas
 
@@ -148,6 +146,7 @@ A cada atualização os detalhes devem ser lançados aqui.
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/2024-1-NADS1-A/Projeto5">Sensor de frequência cardíaca e oxímetro</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/2024-1-NADS1-A/Projeto5">FECAP, GUSTAVO CUNHA FERNANDES, ISABELA NUNES ZEFERINO, MARIA GABRIELA DE OLIVEIRA MARTINS DA SILVA, MATHEUS ALVES GAS</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 ## 🎓 Referências
+
 
 Aqui estão as referências usadas no projeto.
 
