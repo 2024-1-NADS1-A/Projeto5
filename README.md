@@ -77,13 +77,16 @@ Há também 4 pastas que seguem da seguinte forma:
 
 ## 🛠 Instalação
 
-<b>Android:</b>
+<b>Blynk:</b>
 
-Faça o Download do JOGO.apk no seu celular.
-Execute o APK e siga as instruções de seu telefone.
+Faça o Download do aplicativo Blynk em seu celular e siga as instruções de seu telefone ou abra no navegador.
+<br>Crie sua conta > Zona do desenvolvedor > Crie seu modelo > Datastreams: defina um pino virtual V4 e V5 para BPM e SPO2 > Painel de controle web : adicione dois medidores e atribua os pinos virtuais a eles. </br>
+
+Conectando o WI-FI ao ESP32: 
+<br> Vá em Ajuda > Início ráido > Vamos lá<br/>
 
 ```sh
-Coloque código do prompt de comnando se for necessário
+https://blynk.io/
 ```
 
 <b>Windows:</b>
