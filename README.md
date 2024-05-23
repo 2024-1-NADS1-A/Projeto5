@@ -61,12 +61,20 @@ Há também 4 pastas que seguem da seguinte forma:
 
 <b>src</b>: Pasta que contém o código fonte.
 
-## 🛠 Equipamentos utilizados 
+## 🛠 Equipamentos e aplicativos utilizados 
 
-<br>Protoboard</br>
-<br>5 fios jumpers </br>
-<br>Sensor MAX30100</br>
-<br>ESP32</br>
+<b>Hardware:</b>
+
+<br>-Protoboard</br>
+<br>-5 fios jumpers </br>
+<br>-Sensor MAX30100</br>
+<br>-ESP32</br>
+
+<b>Software:</b>
+
+<br>-Arduino IDE</br>
+<br>-Blynk</br>
+
 
 ## 🛠 Instalação
 
