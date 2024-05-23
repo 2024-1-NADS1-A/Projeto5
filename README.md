@@ -16,7 +16,7 @@
 
 <p align="center">
 <img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Projeto interdisciplinar feito por: Gustavo Cunha Fernandes, isabela Nunes Zeferino e Matheus Alves Gas.
+  Projeto interdisciplinar feito por: Gustavo Cunha Fernandes, Isabela Nunes Zeferino e Matheus Alves Gas.
 </p>
 
 
@@ -79,10 +79,10 @@ Há também 4 pastas que seguem da seguinte forma:
 
 Faça o Download do aplicativo Blynk em seu celular e siga as instruções de seu telefone ou abra no navegador.
 
-<br>Crie sua conta > Zona do desenvolvedor > Crie seu projeto:tocando no botão "+" ou no botão de adicionar projeto. Dê um nome ao seu projeto e selecione o dispositivo que você usará com o Blynk. > Datastreams: defina um pino virtual V4 e V5 para BPM e SPO2 > Painel de controle web : adicione widgets tocando no botão de "+" no canto superior direito. Adicione dois medidores e atribua os pinos virtuais a eles. > Conectando seu Dispositivo: você precisará de um token de autenticação. Este token é gerado pelo aplicativo Blynk e é único para cada projeto. No aplicativo, toque no botão QR no canto superior direito do editor para visualizar o token. Você precisará inserir esse token no código do seu dispositivo para estabelecer a conexão com o Blynk. </br>
+<br>Crie sua conta -> Zona do desenvolvedor -> Crie seu projeto:tocando no botão "+" ou no botão de adicionar projeto. Dê um nome ao seu projeto e selecione o dispositivo que você usará com o Blynk. -> Datastreams: defina um pino virtual V4 e V5 para BPM e SPO2 -> Painel de controle web : adicione widgets tocando no botão de "+" no canto superior direito. Adicione dois medidores e atribua os pinos virtuais a eles. -> Conectando seu Dispositivo: você precisará de um token de autenticação. Este token é gerado pelo aplicativo Blynk e é único para cada projeto. No aplicativo, toque no botão QR no canto superior direito do editor para visualizar o token. Você precisará inserir esse token no código do seu dispositivo para estabelecer a conexão com o Blynk. </br>
 
 Conectando o WI-FI ao ESP32: 
-<br> Vá em Ajuda > Início ráido > Vamos lá<br/>
+<br> Vá em Ajuda -> Início ráido -> Vamos lá<br/>
 
 ```sh
 https://blynk.io/
@@ -91,12 +91,15 @@ https://blynk.io/
 <b>arduino IDE:</b>
 
 Faça o download do software do Arduino IDE 
-<br> Vá em software >
-Arduino IDE 2.3.2 > Baixe a pasta Zip de acordo com seu sistema operacinal.<br/>
+<br> Vá em software ->
+Arduino IDE 2.3.2 -> Baixe a pasta Zip de acordo com seu sistema operacinal.<br/>
 
 ```sh
 https://www.arduino.cc/en/software
 ```
+
+
+## 💻 Configuração para Desenvolvimento
 
 Para instalar biblioteca do ESP32:
 <br>Abra a IDE do Arduino.
@@ -106,29 +109,18 @@ Localize a biblioteca "ESP32" na lista e clique no botão "Instalar" ao lado del
 Após a instalação, você pode usar a biblioteca em seus projetos selecionando-a em "Sketch" -> "Incluir Biblioteca".<br/>
 
 Para instalar biblioteca do MAX30100:
-<br><br/>
+<br>Abra a IDE do Arduino.
+No menu, vá para "Sketch" -> "Incluir Biblioteca" -> "Gerenciar Bibliotecas...".
+Na janela que se abre, digite "MAX30100" na barra de pesquisa.
+Localize a biblioteca "MAX30100" na lista e clique no botão "Instalar" ao lado dela.
+Após a instalação, você pode usar a biblioteca em seus projetos selecionando-a em "Sketch" -> "Incluir Biblioteca".<br/>
 
 Para instalar biblioteca do Blynk:
-<br><br/>
-
-<b>HTML:</b>
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
-
-## 💻 Configuração para Desenvolvimento
-
-Descreva como instalar todas as dependências para desenvolvimento e como rodar um test-suite automatizado de algum tipo. Se necessário, faça isso para múltiplas plataformas.
-
-Para abrir este projeto você necessita das seguintes ferramentas:
-
--<a href="https://godotengine.org/download">GODOT</a>
-
-```sh
-make install
-npm test
-Coloque código do prompt de comnando se for necessário
-```
+<br>Abra a IDE do Arduino.
+No menu, vá para "Sketch" -> "Incluir Biblioteca" -> "Gerenciar Bibliotecas...".
+Na janela que se abre, digite "Blynk" na barra de pesquisa.
+Localize a biblioteca "Blynk" na lista e clique no botão "Instalar" ao lado dela.
+Após a instalação, você pode usar a biblioteca em seus projetos selecionando-a em "Sketch" -> "Incluir Biblioteca".<br/>
 
 ## 🗃 Histórico de lançamentos
 
