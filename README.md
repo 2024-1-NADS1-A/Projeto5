@@ -64,14 +64,13 @@ Há também 4 pastas que seguem da seguinte forma:
 ## 🛠 Equipamentos e aplicativos utilizados 
 
 <b>Hardware:</b>
-
 <br>-Protoboard</br>
 <br>-5 fios jumpers </br>
 <br>-Sensor MAX30100</br>
 <br>-ESP32</br>
 
-<b>Software:</b>
 
+<b>Software:</b>
 <br>-Arduino IDE</br>
 <br>-Blynk</br>
 
