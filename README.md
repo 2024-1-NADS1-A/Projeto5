@@ -38,11 +38,9 @@ O projeto consiste em um dispositivo que monitora continuamente ou periodicament
 |-->executáveis<br>
   &emsp;|-->windows<br>
   &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
 |-->imagens<br>
 |-->src<br>
   &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
 |readme.md<br>
 
 A pasta raiz contem dois arquivos que devem ser alterados:
@@ -153,5 +151,4 @@ Aqui estão as referências usadas no projeto.
 2. <https://theiotprojects.com/>
 3. <https://github.com/gabrieldejesus/readme-model>
 4. <https://creativecommons.org/share-your-work/>
-5. <https://freesound.org/>
-6. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+   
