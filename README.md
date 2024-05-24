@@ -8,7 +8,7 @@
 
 ## Grupo 5 
 
-## Integrantes: Gustavo Cunha Fernandes,<a href= "www.linkedin.com/in/isabela-nunes-zeferino" alt=" Isabela Nunes Zeferino"  e Matheus Alves Gas.
+## Integrantes: <a href="www.linkedin.com/in/isabela-nunes-zeferino">Isabela Nunes Zeferino</a>
 
 ## Professores Orientadores: Victor Bruno Alexander Rosetti de Quiroz, Adriano Valentea, Eduardo Savino Gomes.
 
