@@ -15,7 +15,7 @@
 ## Descrição: Desenvolvemos um dispositivo que combina um sensor de frequência cardíaca e oxímetro, conectado ao aplicativo Blynk por meio do ESP32. Esse sistema permite aos médicos monitorarem os sinais vitais de seus pacientes em tempo real, facilitando o acompanhamento dos batimentos cardíacos e dos níveis de oxigênio no sangue à distância.
 
 <p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
+<img src="imagens/Circuito.jpeg" alt="" border="0">
   Projeto interdisciplinar feito por: Gustavo Cunha Fernandes, Isabela Nunes Zeferino e Matheus Alves Gas.
 </p>
 
