@@ -8,7 +8,7 @@
 
 ## Grupo 5 
 
-## Integrantes: <a href="https://www.linkedin.com/in/gustavo-cunha-fernandes-60b3712a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Gustavo Cunha Fernandes</a>  <a href="www.linkedin.com/in/isabela-nunes-zeferino">Isabela Nunes Zeferino</a>  <a href="https://www.linkedin.com/in/matheus-gas-225b76224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Matheus Alves Gas</a> 
+## Integrantes: <a href="https://www.linkedin.com/in/gustavo-cunha-fernandes-60b3712a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Gustavo Cunha Fernandes</a>,  <a href="www.linkedin.com/in/isabela-nunes-zeferino">Isabela Nunes Zeferino</a>,  <a href="https://www.linkedin.com/in/matheus-gas-225b76224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Matheus Alves Gas</a> 
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Victor Bruno Alexander Rosetti de Quiroz</a>,  <a href="https://www.linkedin.com/in/adriano-valente-534576135?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Adriano Valente</a>
 
