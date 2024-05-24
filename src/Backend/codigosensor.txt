@@ -1,0 +1,106 @@
+
+#define BLYNK_TEMPLATE_ID "TMPL2r_zS7Iu7"
+#define BLYNK_TEMPLATE_NAME "Quickstart Template"
+#define BLYNK_AUTH_TOKEN "ZvZmbjYCrcoEV9Vt2iUeK5MNeOX1Am55"
+
+/* Comment this out to disable prints and save space */
+#define BLYNK_PRINT Serial
+
+#include <WiFi.h>
+#include <WiFiClient.h>
+#include <BlynkSimpleEsp32.h>
+#include <Wire.h>
+#include "MAX30100_PulseOximeter.h"
+
+// Your WiFi credentials.
+// Set password to "" for open networks.
+char ssid[] = "Cheguevara";
+char pass[] = "11082017";
+
+BlynkTimer timer;
+PulseOximeter pox;
+
+#define REPORTING_PERIOD_MS 1000
+uint32_t tsLastReport = 0;
+
+// This function is called every time the Virtual Pin 0 state changes
+BLYNK_WRITE(V0)
+{
+  // Set incoming value from pin V0 to a variable
+  int value = param.asInt();
+
+  // Update state
+  Blynk.virtualWrite(V1, value);
+}
+
+// This function is called every time the device is connected to the Blynk.Cloud
+BLYNK_CONNECTED()
+{
+  // Change Web Link Button message to "Congratulations!"
+  Blynk.setProperty(V3, "offImageUrl", "https://static-image.nyc3.cdn.digitaloceanspaces.com/general/fte/congratulations.png");
+  Blynk.setProperty(V3, "onImageUrl", "https://static-image.nyc3.cdn.digitaloceanspaces.com/general/fte/congratulations_pressed.png");
+  Blynk.setProperty(V3, "url", "https://docs.blynk.io/en/getting-started/what-do-i-need-to-blynk/how-quickstart-device-was-made");
+}
+
+// This function sends Arduino's uptime every second to Virtual Pin 2.
+void myTimerEvent()
+{
+  Blynk.virtualWrite(V2, millis() / 1000);
+}
+
+void setup()
+{
+  // Debug console
+  Serial.begin(115200);
+
+  Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass);
+  // You can also specify server:
+  //Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass, "blynk.cloud", 80);
+  //Blynk.begin(BLYNK_AUTH_TOKEN, ssid, pass, IPAddress(192,168,1,100), 8080);
+
+  // Initialize the PulseOximeter instance
+  if (!pox.begin())
+  {
+    Serial.println("ERROR: Failed to initialize pulse oximeter");
+    for (;;);
+  }
+
+  pox.setOnBeatDetectedCallback(onBeatDetected);
+
+  // Setup a function to be called every second
+  timer.setInterval(1000L, myTimerEvent);
+  timer.setInterval(1000L, sendSensorData);
+}
+
+void loop()
+{
+  Blynk.run();
+  timer.run();
+  pox.update();
+}
+
+void onBeatDetected()
+{
+  Serial.println("Beat detected!");
+}
+
+void sendSensorData()
+{
+  float heartRate = pox.getHeartRate();
+  float SpO2 = pox.getSpO2();
+
+  if (millis() - tsLastReport > REPORTING_PERIOD_MS)
+  {
+    Serial.print("Heart rate: ");
+    Serial.print(heartRate);
+    Serial.print(" bpm / SpO2: ");
+    Serial.print(SpO2);
+    Serial.println(" %");
+
+    // Send sensor data to Blynk
+    Blynk.virtualWrite(V4, heartRate); // Assuming V4 for heart rate
+    Blynk.virtualWrite(V5, SpO2);      // Assuming V5 for SpO2
+
+    tsLastReport = millis();
+  }
+}
