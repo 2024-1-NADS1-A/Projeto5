@@ -10,7 +10,7 @@
 
 ## Integrantes: <a href="https://www.linkedin.com/in/gustavo-cunha-fernandes-60b3712a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Gustavo Cunha Fernandes</a>  <a href="www.linkedin.com/in/isabela-nunes-zeferino">Isabela Nunes Zeferino</a>  <a href="https://www.linkedin.com/in/matheus-gas-225b76224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Matheus Alves Gas</a> 
 
-## Professores Orientadores: Victor Bruno Alexander Rosetti de Quiroz, Adriano Valentea, Eduardo Savino Gomes.
+## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Victor Bruno Alexander Rosetti de Quiroz</a>,  <a href="https://www.linkedin.com/in/adriano-valente-534576135?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">Adriano Valente</a>
 
 ## Descrição: Desenvolvemos um dispositivo que combina um sensor de frequência cardíaca e oxímetro, conectado ao aplicativo Blynk por meio do ESP32. Esse sistema permite aos médicos monitorarem os sinais vitais de seus pacientes em tempo real, facilitando o acompanhamento dos batimentos cardíacos e dos níveis de oxigênio no sangue à distância.
 
